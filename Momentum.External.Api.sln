@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Momentum.External.Api", "WebApplication1\Momentum.External.Api.csproj", "{366F9174-C161-4BAB-85D5-D39A1A954864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{366F9174-C161-4BAB-85D5-D39A1A954864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366F9174-C161-4BAB-85D5-D39A1A954864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366F9174-C161-4BAB-85D5-D39A1A954864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366F9174-C161-4BAB-85D5-D39A1A954864}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {390B27C1-BC9C-447C-9774-76B7E9AF4CE3}
+	EndGlobalSection
+EndGlobal
