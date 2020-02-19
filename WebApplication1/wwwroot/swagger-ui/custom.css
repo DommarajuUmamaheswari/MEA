@@ -1,0 +1,63 @@
+﻿body {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.swagger-ui .topbar {
+    background: #2196f3;
+    color: #fff;
+    height: 64px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+    .swagger-ui .topbar label {
+        color: #fff;
+    }
+
+    .swagger-ui .topbar .download-url-wrapper .select-label select {
+        border-width: 0;
+        font-size: 16px;
+    }
+
+.swagger-ui label {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.swagger-ui select {
+    border-radius: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.swagger-ui,
+.swagger-ui .btn,
+.swagger-ui .info .title,
+.swagger-ui .opblock .opblock-summary-description,
+.swagger-ui .opblock-tag,
+.swagger-ui .opblock .opblock-summary-method,
+.swagger-ui .opblock .opblock-section-header h4,
+.swagger-ui section.models h4,
+.swagger-ui .response-col_status,
+.swagger-ui .parameter__name,
+.swagger-ui .model-title {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+    .swagger-ui .topbar a span {
+        display: none;
+    }
+
+    .swagger-ui .topbar a img {
+        content: url('https://console.kmdlogic.io/static/media/tech-heart.1eb4367f.png');
+        height: 45px;
+        width: auto;
+    }
+
+    .swagger-ui .topbar a:after {
+        content: 'Logic';
+        padding: 0 10px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: -20px;
+    }
+
+button {
+}
