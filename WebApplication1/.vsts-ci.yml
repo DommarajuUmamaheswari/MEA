@@ -1,0 +1,18 @@
+﻿resources:
+- repo: self
+  fetchDepth: 15
+
+trigger:
+  branches:
+    include:
+    - master
+
+name: $(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.rr)-$(BuildId)
+
+phases:
+- template: .build.yml
+  parameters:
+    name: Windows
+    queue: Hosted Windows 2019 with VS2019
+    publishToPath: '$(Build.ArtifactStagingDirectory)'
+    

@@ -1,0 +1,15 @@
+﻿parameters:
+  name: ''
+  queue: ''
+
+phases:
+- phase: ${{ parameters.name }}
+  queue: ${{ parameters.queue }}
+  steps:
+  - task: UseDotNet@2
+    displayName: Install dotnet SDK
+    inputs:
+      packageType: sdk
+      useGlobalJson: true
+      workingDirectory: ./src/logic
+      installationPath: $(Agent.ToolsDirectory)/dotnet  
