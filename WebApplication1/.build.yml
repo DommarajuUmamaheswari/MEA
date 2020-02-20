@@ -7,9 +7,14 @@ phases:
   queue: ${{ parameters.queue }}
   steps:
   - task: UseDotNet@2
-    displayName: Install dotnet SDK
+    displayName: 'Install .NET Core SDK'
     inputs:
-      packageType: sdk
-      useGlobalJson: true
-      workingDirectory: ./src/logic
-      installationPath: $(Agent.ToolsDirectory)/dotnet  
+      version: 3.0.x
+      performMultiLevelLookup: true 
+
+  - task: DotNetCoreCLI@2
+    displayName: Build1
+    inputs:
+      command: build
+      projects: '**/*.csproj'
+      arguments: '--configuration Release' # Update this to match your need
