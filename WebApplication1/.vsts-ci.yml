@@ -15,4 +15,9 @@ phases:
     name: Windows
     queue: Hosted Windows 2019 with VS2019
     publishToPath: '$(Build.ArtifactStagingDirectory)'
-    
+
+- template: .build.yml
+  parameters:
+    name: Linux
+    queue: Hosted Ubuntu 1604
+    publishToPath: ''   
