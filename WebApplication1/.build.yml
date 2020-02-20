@@ -13,7 +13,7 @@ phases:
       performMultiLevelLookup: true 
 
   - task: DotNetCoreCLI@2
-    displayName: Build1
+    displayName: Build2
     inputs:
       command: build
       projects: '**/*.csproj'
