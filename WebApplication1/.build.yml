@@ -7,7 +7,7 @@ phases:
   queue: ${{ parameters.queue }}
   steps:
   - task: UseDotNet@21
-      inputs:
-        packageType: 'sdk'
-        useGlobalJson: true
+     inputs:
+       packageType: 'sdk'
+       useGlobalJson: true
 
