@@ -17,7 +17,7 @@ namespace Momentum.External.Api.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Implementation pending";
+            return "Implementation pending  ";
         }
 
         [HttpPost]
